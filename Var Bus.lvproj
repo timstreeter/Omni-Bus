@@ -13,28 +13,25 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Support" Type="Folder">
-			<Item Name="Abs_Boolean.lvclass" Type="LVClass" URL="../../Data Classes/Source/Abs_Types/Boolean/Abs_Boolean.lvclass"/>
-			<Item Name="Abs_Double Float.lvclass" Type="LVClass" URL="../../Data Classes/Source/Abs_Types/Double Float/Abs_Double Float.lvclass"/>
-			<Item Name="Abs_Extended Float.lvclass" Type="LVClass" URL="../../Data Classes/Source/Abs_Types/Extended Float/Abs_Extended Float.lvclass"/>
-			<Item Name="Abs_Floating Point.lvclass" Type="LVClass" URL="../../Data Classes/Source/Abs_Types/Floating Point/Abs_Floating Point.lvclass"/>
-			<Item Name="Abs_I8 Integer.lvclass" Type="LVClass" URL="../../Data Classes/Source/Abs_Types/I8 Integer/Abs_I8 Integer.lvclass"/>
-			<Item Name="Abs_I16 Integer.lvclass" Type="LVClass" URL="../../Data Classes/Source/Abs_Types/I16 Integer/Abs_I16 Integer.lvclass"/>
-			<Item Name="Abs_I32 Integer.lvclass" Type="LVClass" URL="../../Data Classes/Source/Abs_Types/I32 Integer/Abs_I32 Integer.lvclass"/>
-			<Item Name="Abs_I64 Integer.lvclass" Type="LVClass" URL="../../Data Classes/Source/Abs_Types/I64 Integer/Abs_I64 Integer.lvclass"/>
-			<Item Name="Abs_Integer.lvclass" Type="LVClass" URL="../../Data Classes/Source/Abs_Types/Integer/Abs_Integer.lvclass"/>
-			<Item Name="Abs_Numeric.lvclass" Type="LVClass" URL="../../Data Classes/Source/Abs_Types/Numeric/Abs_Numeric.lvclass"/>
-			<Item Name="Abs_Single Float.lvclass" Type="LVClass" URL="../../Data Classes/Source/Abs_Types/Single Float/Abs_Single Float.lvclass"/>
-			<Item Name="Abs_String.lvclass" Type="LVClass" URL="../../Data Classes/Source/Abs_Types/String/Abs_String.lvclass"/>
-			<Item Name="Abs_Time.lvclass" Type="LVClass" URL="../../Data Classes/Source/Abs_Types/Time/Abs_Time.lvclass"/>
-			<Item Name="Abs_Type.lvclass" Type="LVClass" URL="../../Data Classes/Source/Abs_Types/Type/Abs_Type.lvclass"/>
-			<Item Name="Abs_U8 Integer.lvclass" Type="LVClass" URL="../../Data Classes/Source/Abs_Types/U8 Integer/Abs_U8 Integer.lvclass"/>
-			<Item Name="Abs_U16 Integer.lvclass" Type="LVClass" URL="../../Data Classes/Source/Abs_Types/U16 Integer/Abs_U16 Integer.lvclass"/>
-			<Item Name="Abs_U32 Integer.lvclass" Type="LVClass" URL="../../Data Classes/Source/Abs_Types/U32 Integer/Abs_U32 Integer.lvclass"/>
-			<Item Name="Abs_U64 Integer.lvclass" Type="LVClass" URL="../../Data Classes/Source/Abs_Types/U64 Integer/Abs_U64 Integer.lvclass"/>
-			<Item Name="Abs_Value.lvclass" Type="LVClass" URL="../../Data Classes/Source/Abs_Types/Value/Abs_Value.lvclass"/>
-			<Item Name="Complex Double Float.lvclass" Type="LVClass" URL="../../Data Classes/Source/Abs_Types/Complex Double Float/Complex Double Float.lvclass"/>
-			<Item Name="Complex Extended Float.lvclass" Type="LVClass" URL="../../Data Classes/Source/Abs_Types/Complex Extended Float/Complex Extended Float.lvclass"/>
-			<Item Name="Complex Single Float.lvclass" Type="LVClass" URL="../../Data Classes/Source/Abs_Types/Complex Single Float/Complex Single Float.lvclass"/>
+			<Item Name="Abs_Boolean.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Abs_Types/Boolean/Abs_Boolean.lvclass"/>
+			<Item Name="Abs_Double Float.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Abs_Types/Double Float/Abs_Double Float.lvclass"/>
+			<Item Name="Abs_Extended Float.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Abs_Types/Extended Float/Abs_Extended Float.lvclass"/>
+			<Item Name="Abs_Floating Point.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Abs_Types/Floating Point/Abs_Floating Point.lvclass"/>
+			<Item Name="Abs_I8 Integer.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Abs_Types/I8 Integer/Abs_I8 Integer.lvclass"/>
+			<Item Name="Abs_I16 Integer.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Abs_Types/I16 Integer/Abs_I16 Integer.lvclass"/>
+			<Item Name="Abs_I32 Integer.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Abs_Types/I32 Integer/Abs_I32 Integer.lvclass"/>
+			<Item Name="Abs_I64 Integer.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Abs_Types/I64 Integer/Abs_I64 Integer.lvclass"/>
+			<Item Name="Abs_Integer.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Abs_Types/Integer/Abs_Integer.lvclass"/>
+			<Item Name="Abs_Numeric.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Abs_Types/Numeric/Abs_Numeric.lvclass"/>
+			<Item Name="Abs_Single Float.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Abs_Types/Single Float/Abs_Single Float.lvclass"/>
+			<Item Name="Abs_String.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Abs_Types/String/Abs_String.lvclass"/>
+			<Item Name="Abs_Time.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Abs_Types/Time/Abs_Time.lvclass"/>
+			<Item Name="Abs_Type.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Abs_Types/Type/Abs_Type.lvclass"/>
+			<Item Name="Abs_U8 Integer.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Abs_Types/U8 Integer/Abs_U8 Integer.lvclass"/>
+			<Item Name="Abs_U16 Integer.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Abs_Types/U16 Integer/Abs_U16 Integer.lvclass"/>
+			<Item Name="Abs_U32 Integer.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Abs_Types/U32 Integer/Abs_U32 Integer.lvclass"/>
+			<Item Name="Abs_U64 Integer.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Abs_Types/U64 Integer/Abs_U64 Integer.lvclass"/>
+			<Item Name="Abs_Value.lvclass" Type="LVClass" URL="../../LV_Abstract/Source/Abs_Types/Value/Abs_Value.lvclass"/>
 		</Item>
 		<Item Name="Var Bus.lvclass" Type="LVClass" URL="../Source/Var Bus/Var Bus.lvclass"/>
 		<Item Name="Var_Access.lvclass" Type="LVClass" URL="../Source/Var Access/Var_Access.lvclass"/>
