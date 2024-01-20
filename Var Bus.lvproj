@@ -14,9 +14,9 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Test" Type="Folder">
 			<Item Name="Local Test.vi" Type="VI" URL="../Test Code/Local Test.vi"/>
+			<Item Name="Local var speed Test.vi" Type="VI" URL="../Test Code/Local var speed Test.vi"/>
 			<Item Name="Test List Tags By Type.vi" Type="VI" URL="../Test Code/Test List Tags By Type.vi"/>
 		</Item>
-		<Item Name="Local var speed Test.vi" Type="VI" URL="../Test Code/Local var speed Test.vi"/>
 		<Item Name="Local Vars.lvclass" Type="LVClass" URL="../Source/Local Vars/Local Vars.lvclass"/>
 		<Item Name="Var Bus.lvclass" Type="LVClass" URL="../Source/Var Bus/Var Bus.lvclass"/>
 		<Item Name="Var_Access.lvclass" Type="LVClass" URL="../Source/Var Access/Var_Access.lvclass"/>
