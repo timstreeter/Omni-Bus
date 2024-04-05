@@ -5,6 +5,7 @@
 	<Property Name="varPersistentID:{7793570F-6B52-49CA-A4B6-42B03915891D}" Type="Ref">/My Computer/Test/Test Variables.lvlib/Boolean</Property>
 	<Property Name="varPersistentID:{BEF296EE-82C9-4817-BBA8-8422DDB9C59D}" Type="Ref">/My Computer/Test/Test Variables.lvlib/DBL</Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -23,10 +24,18 @@
 			<Item Name="Test Read Specific Type Tests.vi" Type="VI" URL="../Test Code/Test Read Specific Type Tests.vi"/>
 			<Item Name="Test Variables.lvlib" Type="Library" URL="../Test Code/Test Variables.lvlib"/>
 		</Item>
+		<Item Name="Local Bus" Type="Folder">
+			<Item Name="Support" Type="Folder">
+				<Item Name="Local Bus_DBL.lvclass" Type="LVClass" URL="../Source/Local Bus/Support/DBL/Local Bus_DBL.lvclass"/>
+				<Item Name="Local Bus_Int.lvclass" Type="LVClass" URL="../Source/Local Bus/Support/Interface/Local Bus_Int.lvclass"/>
+			</Item>
+			<Item Name="Local Bus.lvclass" Type="LVClass" URL="../Source/Local Bus/Local Bus.lvclass"/>
+		</Item>
 		<Item Name="Bus_Access.lvclass" Type="LVClass" URL="../Source/Bus_Access/Bus_Access.lvclass"/>
 		<Item Name="Bus_Index.lvclass" Type="LVClass" URL="../Source/Bus_Index/Bus_Index.lvclass"/>
 		<Item Name="Local Vars.lvclass" Type="LVClass" URL="../Source/Local Vars/Local Vars.lvclass"/>
 		<Item Name="Omni_Bus.lvclass" Type="LVClass" URL="../Source/Omni-Bus/Omni_Bus.lvclass"/>
+		<Item Name="Local Bus speed Test.vi" Type="VI" URL="../Test Code/Local Bus speed Test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Abs_Boolean.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Abs_Types/Boolean/Abs_Boolean.lvclass"/>
