@@ -2,6 +2,8 @@
 <Project Type="Project" LVVersion="21008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
+	<Property Name="varPersistentID:{7793570F-6B52-49CA-A4B6-42B03915891D}" Type="Ref">/My Computer/Test/Test Variables.lvlib/Boolean</Property>
+	<Property Name="varPersistentID:{BEF296EE-82C9-4817-BBA8-8422DDB9C59D}" Type="Ref">/My Computer/Test/Test Variables.lvlib/DBL</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -15,11 +17,14 @@
 		<Item Name="Test" Type="Folder">
 			<Item Name="Local Test.vi" Type="VI" URL="../Test Code/Local Test.vi"/>
 			<Item Name="Local var speed Test.vi" Type="VI" URL="../Test Code/Local var speed Test.vi"/>
+			<Item Name="shared Variable as Variant Test.vi" Type="VI" URL="../Test Code/shared Variable as Variant Test.vi"/>
 			<Item Name="Test List Tags By Type.vi" Type="VI" URL="../Test Code/Test List Tags By Type.vi"/>
 			<Item Name="Test Read Specific Type Tests.vi" Type="VI" URL="../Test Code/Test Read Specific Type Tests.vi"/>
+			<Item Name="Test Variables.lvlib" Type="Library" URL="../Test Code/Test Variables.lvlib"/>
 		</Item>
 		<Item Name="Bus_Access.lvclass" Type="LVClass" URL="../Source/Bus_Access/Bus_Access.lvclass"/>
 		<Item Name="Bus_Index.lvclass" Type="LVClass" URL="../Source/Bus_Index/Bus_Index.lvclass"/>
+		<Item Name="Local var speed Test 2.vi" Type="VI" URL="../Test Code/Local var speed Test 2.vi"/>
 		<Item Name="Local Vars.lvclass" Type="LVClass" URL="../Source/Local Vars/Local Vars.lvclass"/>
 		<Item Name="Multi_Bus.lvclass" Type="LVClass" URL="../Source/Multi_Bus/Multi_Bus.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -39,6 +44,7 @@
 				<Item Name="Abs_Integer.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Abs_Types/Integer/Abs_Integer.lvclass"/>
 				<Item Name="Abs_Numeric.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Abs_Types/Numeric/Abs_Numeric.lvclass"/>
 				<Item Name="Abs_Read.vi" Type="VI" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Abs_Types/Abs_Read.vi"/>
+				<Item Name="abs_SharedVariable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/LVabs_Shared Variable/Interface/abs_SharedVariable.lvclass"/>
 				<Item Name="Abs_Single Float.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Abs_Types/Single Float/Abs_Single Float.lvclass"/>
 				<Item Name="Abs_String.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Abs_Types/String/Abs_String.lvclass"/>
 				<Item Name="Abs_Time.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Abs_Types/Time/Abs_Time.lvclass"/>
@@ -55,6 +61,21 @@
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="conc_SharedVar_Bool.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/LVabs_Shared Variable/Bool/conc_SharedVar_Bool.lvclass"/>
+				<Item Name="conc_SharedVar_DBL.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/LVabs_Shared Variable/DBL/conc_SharedVar_DBL.lvclass"/>
+				<Item Name="conc_SharedVar_I8.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/LVabs_Shared Variable/I8/conc_SharedVar_I8.lvclass"/>
+				<Item Name="conc_SharedVar_I16.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/LVabs_Shared Variable/I16/conc_SharedVar_I16.lvclass"/>
+				<Item Name="conc_SharedVar_I32.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/LVabs_Shared Variable/I32/conc_SharedVar_I32.lvclass"/>
+				<Item Name="conc_SharedVar_I64.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/LVabs_Shared Variable/I64/conc_SharedVar_I64.lvclass"/>
+				<Item Name="conc_SharedVar_SGL.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/LVabs_Shared Variable/SGL/conc_SharedVar_SGL.lvclass"/>
+				<Item Name="conc_SharedVar_STR.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/LVabs_Shared Variable/STR/conc_SharedVar_STR.lvclass"/>
+				<Item Name="conc_SharedVar_Time.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/LVabs_Shared Variable/Time/conc_SharedVar_Time.lvclass"/>
+				<Item Name="conc_SharedVar_U8.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/LVabs_Shared Variable/U8/conc_SharedVar_U8.lvclass"/>
+				<Item Name="conc_SharedVar_U16.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/LVabs_Shared Variable/U16/conc_SharedVar_U16.lvclass"/>
+				<Item Name="conc_SharedVar_U32.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/LVabs_Shared Variable/U32/conc_SharedVar_U32.lvclass"/>
+				<Item Name="conc_SharedVar_U64.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/LVabs_Shared Variable/U64/conc_SharedVar_U64.lvclass"/>
+				<Item Name="conc_SharedVar_Var.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/LVabs_Shared Variable/Var/conc_SharedVar_Var.lvclass"/>
+				<Item Name="conc_SharedVar_WFM.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/LVabs_Shared Variable/WFM/conc_SharedVar_WFM.lvclass"/>
 				<Item Name="Const_Bool.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Constants/Support/Bool/Const_Bool.lvclass"/>
 				<Item Name="Const_CPLX_DBL.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Constants/Support/CPLX_DBL/Const_CPLX_DBL.lvclass"/>
 				<Item Name="Const_CPLX_EXT.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Constants/Support/CPLX_EXT/Const_CPLX_EXT.lvclass"/>
@@ -94,6 +115,7 @@
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
+				<Item Name="Initialise_Conc_SharedVariable.vi" Type="VI" URL="/&lt;vilib&gt;/TSA/LVabs_Shared Variable/Initialise_Conc_SharedVariable.vi"/>
 				<Item Name="Iterator.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Abs_Types/Iterator/Iterator.lvclass"/>
 				<Item Name="JDP Timestamp.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/Timestamp/JDP Timestamp.lvlib"/>
 				<Item Name="JDP Utility.lvlib" Type="Library" URL="/&lt;vilib&gt;/JDP Science/JDP Science Common Utilities/JDP Utility.lvlib"/>
@@ -108,6 +130,7 @@
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
+				<Item Name="Shared Variable Type Check.vi" Type="VI" URL="/&lt;vilib&gt;/TSA/LVabs_Shared Variable/Support/Shared Variable Type Check.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
