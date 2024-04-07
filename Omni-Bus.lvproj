@@ -16,6 +16,8 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Test" Type="Folder">
+			<Item Name="Local Bus speed Test.vi" Type="VI" URL="../Test Code/Local Bus speed Test.vi"/>
+			<Item Name="Local Bus Test.vi" Type="VI" URL="../Test Code/Local Bus Test.vi"/>
 			<Item Name="Local Test.vi" Type="VI" URL="../Test Code/Local Test.vi"/>
 			<Item Name="Local var speed Test 2.vi" Type="VI" URL="../Test Code/Local var speed Test 2.vi"/>
 			<Item Name="Local var speed Test.vi" Type="VI" URL="../Test Code/Local var speed Test.vi"/>
@@ -26,16 +28,37 @@
 		</Item>
 		<Item Name="Local Bus" Type="Folder">
 			<Item Name="Support" Type="Folder">
+				<Item Name="Local Bus_Type.lvclass" Type="LVClass" URL="../Source/Local Bus/Support/Type/Local Bus_Type.lvclass"/>
+				<Item Name="Local Bus_Boolean.lvclass" Type="LVClass" URL="../Source/Local Bus/Support/Bool/Local Bus_Boolean.lvclass"/>
+				<Item Name="Local Bus_String.lvclass" Type="LVClass" URL="../Source/Local Bus/Support/STR/Local Bus_String.lvclass"/>
+				<Item Name="Local Bus_Variant.lvclass" Type="LVClass" URL="../Source/Local Bus/Support/Variant/Local Bus_Variant.lvclass"/>
+				<Item Name="Local Bus_Waveform.lvclass" Type="LVClass" URL="../Source/Local Bus/Support/WFM/Local Bus_Waveform.lvclass"/>
+				<Item Name="Local Bus_Time.lvclass" Type="LVClass" URL="../Source/Local Bus/Support/Time/Local Bus_Time.lvclass"/>
+				<Item Name="Local Bus_CEXT.lvclass" Type="LVClass" URL="../Source/Local Bus/Support/CEXT/Local Bus_CEXT.lvclass"/>
+				<Item Name="Local Bus_CDBL.lvclass" Type="LVClass" URL="../Source/Local Bus/Support/CDBL/Local Bus_CDBL.lvclass"/>
+				<Item Name="Local Bus_CSGL.lvclass" Type="LVClass" URL="../Source/Local Bus/Support/CSGL/Local Bus_CSGL.lvclass"/>
 				<Item Name="Local Bus_DBL.lvclass" Type="LVClass" URL="../Source/Local Bus/Support/DBL/Local Bus_DBL.lvclass"/>
+				<Item Name="Local Bus_SGL.lvclass" Type="LVClass" URL="../Source/Local Bus/Support/SGL/Local Bus_SGL.lvclass"/>
+				<Item Name="Local Bus_EXT.lvclass" Type="LVClass" URL="../Source/Local Bus/Support/EXT/Local Bus_EXT.lvclass"/>
+				<Item Name="Local Bus_I64.lvclass" Type="LVClass" URL="../Source/Local Bus/Support/I64/Local Bus_I64.lvclass"/>
+				<Item Name="Local Bus_I32.lvclass" Type="LVClass" URL="../Source/Local Bus/Support/I32/Local Bus_I32.lvclass"/>
+				<Item Name="Local Bus_I16.lvclass" Type="LVClass" URL="../Source/Local Bus/Support/I16/Local Bus_I16.lvclass"/>
+				<Item Name="Local Bus_I8.lvclass" Type="LVClass" URL="../Source/Local Bus/Support/I8/Local Bus_I8.lvclass"/>
+				<Item Name="Local Bus_U64.lvclass" Type="LVClass" URL="../Source/Local Bus/Support/U64/Local Bus_U64.lvclass"/>
+				<Item Name="Local Bus_U32.lvclass" Type="LVClass" URL="../Source/Local Bus/Support/U32/Local Bus_U32.lvclass"/>
+				<Item Name="Local Bus_U16.lvclass" Type="LVClass" URL="../Source/Local Bus/Support/U16/Local Bus_U16.lvclass"/>
+				<Item Name="Local Bus_U8.lvclass" Type="LVClass" URL="../Source/Local Bus/Support/U8/Local Bus_U8.lvclass"/>
 				<Item Name="Local Bus_Int.lvclass" Type="LVClass" URL="../Source/Local Bus/Support/Interface/Local Bus_Int.lvclass"/>
 			</Item>
 			<Item Name="Local Bus.lvclass" Type="LVClass" URL="../Source/Local Bus/Local Bus.lvclass"/>
 		</Item>
-		<Item Name="Bus_Access.lvclass" Type="LVClass" URL="../Source/Bus_Access/Bus_Access.lvclass"/>
-		<Item Name="Bus_Index.lvclass" Type="LVClass" URL="../Source/Bus_Index/Bus_Index.lvclass"/>
-		<Item Name="Local Vars.lvclass" Type="LVClass" URL="../Source/Local Vars/Local Vars.lvclass"/>
-		<Item Name="Omni_Bus.lvclass" Type="LVClass" URL="../Source/Omni-Bus/Omni_Bus.lvclass"/>
-		<Item Name="Local Bus speed Test.vi" Type="VI" URL="../Test Code/Local Bus speed Test.vi"/>
+		<Item Name="Omni-Bus" Type="Folder">
+			<Item Name="Support" Type="Folder">
+				<Item Name="Bus_Access.lvclass" Type="LVClass" URL="../Source/Omni-Bus/Bus Access/Bus_Access.lvclass"/>
+			</Item>
+			<Item Name="Omni_Bus.lvclass" Type="LVClass" URL="../Source/Omni-Bus/Omni_Bus.lvclass"/>
+		</Item>
+		<Item Name="Aggregator Bus.lvclass" Type="LVClass" URL="../Source/Aggregator Bus/Aggregator Bus.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Abs_Boolean.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Abs_Types/Boolean/Abs_Boolean.lvclass"/>
