@@ -19,8 +19,8 @@
 			<Item Name="Local Bus speed Test.vi" Type="VI" URL="../Test Code/Local Bus speed Test.vi"/>
 			<Item Name="Local Bus Test.vi" Type="VI" URL="../Test Code/Local Bus Test.vi"/>
 			<Item Name="Local Test.vi" Type="VI" URL="../Test Code/Local Test.vi"/>
-			<Item Name="Local var speed Test 2.vi" Type="VI" URL="../Test Code/Local var speed Test 2.vi"/>
-			<Item Name="Local var speed Test.vi" Type="VI" URL="../Test Code/Local var speed Test.vi"/>
+			<Item Name="Aggregated var speed Test 2.vi" Type="VI" URL="../Test Code/Aggregated var speed Test 2.vi"/>
+			<Item Name="Aggregated var speed Test.vi" Type="VI" URL="../Test Code/Aggregated var speed Test.vi"/>
 			<Item Name="shared Variable as Variant Test.vi" Type="VI" URL="../Test Code/shared Variable as Variant Test.vi"/>
 			<Item Name="Test List Tags By Type.vi" Type="VI" URL="../Test Code/Test List Tags By Type.vi"/>
 			<Item Name="Test Read Specific Type Tests.vi" Type="VI" URL="../Test Code/Test Read Specific Type Tests.vi"/>
