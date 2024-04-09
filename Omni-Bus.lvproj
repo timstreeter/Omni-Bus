@@ -18,7 +18,8 @@
 		<Item Name="Test" Type="Folder">
 			<Item Name="Local Bus speed Test.vi" Type="VI" URL="../Test Code/Local Bus speed Test.vi"/>
 			<Item Name="Local Bus Test.vi" Type="VI" URL="../Test Code/Local Bus Test.vi"/>
-			<Item Name="Local Test.vi" Type="VI" URL="../Test Code/Local Test.vi"/>
+			<Item Name="Local Bus Waveform Test.vi" Type="VI" URL="../Test Code/Local Bus Waveform Test.vi"/>
+			<Item Name="Aggregated Var Test.vi" Type="VI" URL="../Test Code/Aggregated Var Test.vi"/>
 			<Item Name="Aggregated var speed Test 2.vi" Type="VI" URL="../Test Code/Aggregated var speed Test 2.vi"/>
 			<Item Name="Aggregated var speed Test.vi" Type="VI" URL="../Test Code/Aggregated var speed Test.vi"/>
 			<Item Name="shared Variable as Variant Test.vi" Type="VI" URL="../Test Code/shared Variable as Variant Test.vi"/>
