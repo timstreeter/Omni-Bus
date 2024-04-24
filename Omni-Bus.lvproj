@@ -63,6 +63,7 @@
 			</Item>
 			<Item Name="Omni_Bus.lvclass" Type="LVClass" URL="../Source/Omni-Bus/Omni_Bus.lvclass"/>
 		</Item>
+		<Item Name="Boolean Array Test.vi" Type="VI" URL="../Test Code/Boolean Array Test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Abs_Boolean.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Abs_Types/Boolean/Abs_Boolean.lvclass"/>
