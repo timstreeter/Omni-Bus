@@ -15,6 +15,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Unit Tests" Type="Folder">
+			<Item Name="New Folder" Type="Folder"/>
+		</Item>
 		<Item Name="Test" Type="Folder">
 			<Item Name="Boolean Array Test.vi" Type="VI" URL="../Test Code/Boolean Array Test.vi"/>
 			<Item Name="Local Bus speed Test.vi" Type="VI" URL="../Test Code/Local Bus speed Test.vi"/>
@@ -184,6 +187,7 @@
 				<Item Name="Abs_Current_Time.vi" Type="VI" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Constants/Abs_Current_Time.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="Write Tag List.vi" Type="VI" URL="../Source/Local Bus/Properties/Write Tag List.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
