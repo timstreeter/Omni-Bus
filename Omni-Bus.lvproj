@@ -67,8 +67,12 @@
 			<Item Name="Aggregator Bus.lvclass" Type="LVClass" URL="../Source/Aggregator Bus/Aggregator Bus.lvclass"/>
 		</Item>
 		<Item Name="Examples" Type="Folder">
-			<Item Name="Example 2 - Local Bus Multiple Types.vi" Type="VI" URL="../Source/Examples/Example 2 - Local Bus Multiple Types.vi"/>
 			<Item Name="Example 1 - Local Bus DBL.vi" Type="VI" URL="../Source/Examples/Example 1 - Local Bus DBL.vi"/>
+			<Item Name="Example 2 - Local Bus Multiple Types.vi" Type="VI" URL="../Source/Examples/Example 2 - Local Bus Multiple Types.vi"/>
+			<Item Name="Example 3 - Multiple Buses Multiple Types.vi" Type="VI" URL="../Source/Examples/Example 3 - Multiple Buses Multiple Types.vi"/>
+			<Item Name="Example 4 - Value As.vi" Type="VI" URL="../Source/Examples/Example 4 - Value As.vi"/>
+			<Item Name="Example 5 - Bus-ception.vi" Type="VI" URL="../Source/Examples/Example 5 - Bus-ception.vi"/>
+			<Item Name="Example 6 - Get Abstract Class.vi" Type="VI" URL="../Source/Examples/Example 6 - Get Abstract Class.vi"/>
 		</Item>
 		<Item Name="Omni-Bus" Type="Folder">
 			<Item Name="Support" Type="Folder">
