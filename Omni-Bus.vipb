@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-05-01 22:40:12" Modified_Date="2024-05-01 23:20:40" Creator="Tim" Comments="" ID="b17e302518c3b81b14366408fd819203">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-05-01 22:40:12" Modified_Date="2024-05-04 11:41:29" Creator="Tim" Comments="" ID="e0261dcce7653b8dd726862c099fcb22">
   <Library_General_Settings>
     <Package_File_Name>TSA_lib_Omni_Bus</Package_File_Name>
-    <Library_Version>1.0.0.3</Library_Version>
+    <Library_Version>1.0.1.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -42,11 +42,14 @@ The buses extend the TSI Abstract Data Classes and so the data can be accessed a
 
 Buses included are: 
 - 'Local Bus', this is a DVR based local variable. But future buses include shared variables, cRIO scan engine IO, 
-- 'Aggregator Bus' this adds descrete classes to the API, such as constant classes.</Description>
+- 'Aggregator Bus' this adds descrete classes to the API, such as constant classes.
+
+Examples are available</Description>
       <Copyright/>
       <Packager/>
       <URL>https://github.com/timstreeter/Omni-Bus</URL>
-      <Release_Notes/>
+      <Release_Notes>Added more examples
+Fixed an bug where fixed tags are are not re-searched on reruns of the code.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -265,7 +268,7 @@ Buses included are:
         <Path>Source\Local Bus</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9F64EC235F73FC8335472C653D5ABA76</GUID>
+      <GUID>A00973FC258EE78E233369D5D439B7DC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -300,7 +303,7 @@ Buses included are:
         <Path>Source\Aggregator Bus\Initialise.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3676ADC758C21A71CC937D2CEC10EB94</GUID>
+      <GUID>A5D33D4BBC7D5E5ADB2A00B6B5186A00</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -335,7 +338,7 @@ Buses included are:
         <Path>Source\Local Bus\Initialise - From List.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D93B398E391245C05246925F3A45C16F</GUID>
+      <GUID>A7375B60DD7DDC2DB873EF08D8816E5C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -482,7 +485,7 @@ Buses included are:
         <Path>Source\Omni-Bus\Write Numeric As.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3069702DE7FCFA6C9BC597111EA36437</GUID>
+      <GUID>972D09629005B2F9CCCE35A9DA3C7A5E</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
