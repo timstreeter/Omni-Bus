@@ -24,6 +24,7 @@
 			<Item Name="Read Write Tests.vi" Type="VI" URL="../Unit Tests/Read Write Tests.vi"/>
 		</Item>
 		<Item Name="Test" Type="Folder">
+			<Item Name="Boolean F-I Test.vi" Type="VI" URL="../Test Code/Boolean F-I Test.vi"/>
 			<Item Name="Boolean Array Test.vi" Type="VI" URL="../Test Code/Boolean Array Test.vi"/>
 			<Item Name="Local Bus speed Test.vi" Type="VI" URL="../Test Code/Local Bus speed Test.vi"/>
 			<Item Name="Test Bus of Buses.vi" Type="VI" URL="../Test Code/Test Bus of Buses.vi"/>
@@ -73,13 +74,20 @@
 				</Item>
 				<Item Name="Local Bus.lvclass" Type="LVClass" URL="../Source/Local Bus/Local Bus.lvclass"/>
 			</Item>
+			<Item Name="Fault-Injection Bus" Type="Folder">
+				<Item Name="Support" Type="Folder">
+					<Item Name="Fault-Injection_Boolean.lvclass" Type="LVClass" URL="../Source/Fault-Injection Bus/Support/Boolean/Fault-Injection_Boolean.lvclass"/>
+					<Item Name="Fault-Insertion_Type.lvclass" Type="LVClass" URL="../Source/Fault-Injection Bus/Support/Type Interface/Fault-Insertion_Type.lvclass"/>
+				</Item>
+				<Item Name="Fault-Injection Bus.lvclass" Type="LVClass" URL="../Source/Fault-Injection Bus/Fault-Injection Bus.lvclass"/>
+			</Item>
+			<Item Name="Support" Type="Folder">
+				<Item Name="Bus_Access.lvclass" Type="LVClass" URL="../Source/Omni-Bus/Bus Access/Bus_Access.lvclass"/>
+			</Item>
 			<Item Name="Aggregator Bus.lvclass" Type="LVClass" URL="../Source/Aggregator Bus/Aggregator Bus.lvclass"/>
 			<Item Name="Remap Bus.lvclass" Type="LVClass" URL="../Source/Remap Bus/Remap Bus.lvclass"/>
 		</Item>
 		<Item Name="Omni-Bus" Type="Folder">
-			<Item Name="Support" Type="Folder">
-				<Item Name="Bus_Access.lvclass" Type="LVClass" URL="../Source/Omni-Bus/Bus Access/Bus_Access.lvclass"/>
-			</Item>
 			<Item Name="Omni_Bus.lvclass" Type="LVClass" URL="../Source/Omni-Bus/Omni_Bus.lvclass"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
