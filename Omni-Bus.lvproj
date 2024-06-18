@@ -76,8 +76,15 @@
 			</Item>
 			<Item Name="Fault-Injection Bus" Type="Folder">
 				<Item Name="Support" Type="Folder">
-					<Item Name="Fault-Injection_Boolean.lvclass" Type="LVClass" URL="../Source/Fault-Injection Bus/Support/Boolean/Fault-Injection_Boolean.lvclass"/>
-					<Item Name="Fault-Insertion_Type.lvclass" Type="LVClass" URL="../Source/Fault-Injection Bus/Support/Type Interface/Fault-Insertion_Type.lvclass"/>
+					<Item Name="Interfaces" Type="Folder">
+						<Item Name="Fault-Injection_DBL_Type.lvclass" Type="LVClass" URL="../Source/Fault-Injection Bus/Support/Interfaces/DBL/Fault-Injection_DBL_Type.lvclass"/>
+						<Item Name="Fault-Injection_Boolean_Type.lvclass" Type="LVClass" URL="../Source/Fault-Injection Bus/Support/Interfaces/Boolean/Fault-Injection_Boolean_Type.lvclass"/>
+						<Item Name="Fault-Injection_Type.lvclass" Type="LVClass" URL="../Source/Fault-Injection Bus/Support/Interfaces/Type/Fault-Injection_Type.lvclass"/>
+					</Item>
+					<Item Name="Value Classes" Type="Folder">
+						<Item Name="Fault-Injection_DBL.lvclass" Type="LVClass" URL="../Source/Fault-Injection Bus/Support/Value Type/DBL/Fault-Injection_DBL.lvclass"/>
+						<Item Name="Fault-Injection_Boolean.lvclass" Type="LVClass" URL="../Source/Fault-Injection Bus/Support/Value Type/Boolean/Fault-Injection_Boolean.lvclass"/>
+					</Item>
 				</Item>
 				<Item Name="Fault-Injection Bus.lvclass" Type="LVClass" URL="../Source/Fault-Injection Bus/Fault-Injection Bus.lvclass"/>
 			</Item>
