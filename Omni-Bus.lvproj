@@ -29,6 +29,7 @@
 			<Item Name="Local Bus speed Test.vi" Type="VI" URL="../Test Code/Local Bus speed Test.vi"/>
 			<Item Name="Test Bus of Buses.vi" Type="VI" URL="../Test Code/Test Bus of Buses.vi"/>
 			<Item Name="Local Bus Test.vi" Type="VI" URL="../Test Code/Local Bus Test.vi"/>
+			<Item Name="Fault -Injection Test.vi" Type="VI" URL="../Test Code/Fault -Injection Test.vi"/>
 			<Item Name="Local Bus Waveform Test.vi" Type="VI" URL="../Test Code/Local Bus Waveform Test.vi"/>
 			<Item Name="Aggregated Var Test.vi" Type="VI" URL="../Test Code/Aggregated Var Test.vi"/>
 			<Item Name="Aggregated var speed Test 2.vi" Type="VI" URL="../Test Code/Aggregated var speed Test 2.vi"/>
