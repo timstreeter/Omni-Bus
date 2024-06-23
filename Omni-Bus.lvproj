@@ -100,9 +100,25 @@
 						<Item Name="Fault-Injection_Type.lvclass" Type="LVClass" URL="../Source/Fault-Injection Bus/Support/Interfaces/Type/Fault-Injection_Type.lvclass"/>
 					</Item>
 					<Item Name="Value Classes" Type="Folder">
+						<Item Name="Fault-Injection_CSGL.lvclass" Type="LVClass" URL="../Source/Fault-Injection Bus/Support/Value Type/CSGL/Fault-Injection_CSGL.lvclass"/>
+						<Item Name="Fault-Injection_CDBL.lvclass" Type="LVClass" URL="../Source/Fault-Injection Bus/Support/Value Type/CDBL/Fault-Injection_CDBL.lvclass"/>
+						<Item Name="Fault-Injection_CEXT.lvclass" Type="LVClass" URL="../Source/Fault-Injection Bus/Support/Value Type/CEXT/Fault-Injection_CEXT.lvclass"/>
+						<Item Name="Fault-Injection_I8.lvclass" Type="LVClass" URL="../Source/Fault-Injection Bus/Support/Value Type/I8/Fault-Injection_I8.lvclass"/>
+						<Item Name="Fault-Injection_I16.lvclass" Type="LVClass" URL="../Source/Fault-Injection Bus/Support/Value Type/I16/Fault-Injection_I16.lvclass"/>
+						<Item Name="Fault-Injection_I32.lvclass" Type="LVClass" URL="../Source/Fault-Injection Bus/Support/Value Type/I32/Fault-Injection_I32.lvclass"/>
+						<Item Name="Fault-Injection_I64.lvclass" Type="LVClass" URL="../Source/Fault-Injection Bus/Support/Value Type/I64/Fault-Injection_I64.lvclass"/>
+						<Item Name="Fault-Injection_U8.lvclass" Type="LVClass" URL="../Source/Fault-Injection Bus/Support/Value Type/U8/Fault-Injection_U8.lvclass"/>
+						<Item Name="Fault-Injection_U16.lvclass" Type="LVClass" URL="../Source/Fault-Injection Bus/Support/Value Type/U16/Fault-Injection_U16.lvclass"/>
+						<Item Name="Fault-Injection_U32.lvclass" Type="LVClass" URL="../Source/Fault-Injection Bus/Support/Value Type/U32/Fault-Injection_U32.lvclass"/>
+						<Item Name="Fault-Injection_U64.lvclass" Type="LVClass" URL="../Source/Fault-Injection Bus/Support/Value Type/U64/Fault-Injection_U64.lvclass"/>
+						<Item Name="Fault-Injection_Time.lvclass" Type="LVClass" URL="../Source/Fault-Injection Bus/Support/Value Type/Time/Fault-Injection_Time.lvclass"/>
+						<Item Name="Fault-Injection_WFM.lvclass" Type="LVClass" URL="../Source/Fault-Injection Bus/Support/Value Type/WFM/Fault-Injection_WFM.lvclass"/>
+						<Item Name="Fault-Injection_STR.lvclass" Type="LVClass" URL="../Source/Fault-Injection Bus/Support/Value Type/STR/Fault-Injection_STR.lvclass"/>
+						<Item Name="Fault-Injection_Variant.lvclass" Type="LVClass" URL="../Source/Fault-Injection Bus/Support/Value Type/Variant/Fault-Injection_Variant.lvclass"/>
 						<Item Name="Fault-Injection_SGL.lvclass" Type="LVClass" URL="../Source/Fault-Injection Bus/Support/Value Type/SGL/Fault-Injection_SGL.lvclass"/>
 						<Item Name="Fault-Injection_DBL.lvclass" Type="LVClass" URL="../Source/Fault-Injection Bus/Support/Value Type/DBL/Fault-Injection_DBL.lvclass"/>
 						<Item Name="Fault-Injection_Boolean.lvclass" Type="LVClass" URL="../Source/Fault-Injection Bus/Support/Value Type/Boolean/Fault-Injection_Boolean.lvclass"/>
+						<Item Name="Fault-Injection_EXT.lvclass" Type="LVClass" URL="../Source/Fault-Injection Bus/Support/Value Type/EXT/Fault-Injection_EXT.lvclass"/>
 					</Item>
 				</Item>
 				<Item Name="Fault-Injection Bus.lvclass" Type="LVClass" URL="../Source/Fault-Injection Bus/Fault-Injection Bus.lvclass"/>
