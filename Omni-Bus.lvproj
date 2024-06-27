@@ -33,6 +33,7 @@
 			<Item Name="Local Bus Waveform Test.vi" Type="VI" URL="../Test Code/Local Bus Waveform Test.vi"/>
 			<Item Name="Aggregated Var Test.vi" Type="VI" URL="../Test Code/Aggregated Var Test.vi"/>
 			<Item Name="Aggregated var speed Test 2.vi" Type="VI" URL="../Test Code/Aggregated var speed Test 2.vi"/>
+			<Item Name="Multi Boolean F-I Test.vi" Type="VI" URL="../Test Code/Multi Boolean F-I Test.vi"/>
 			<Item Name="Aggregated var speed Test.vi" Type="VI" URL="../Test Code/Aggregated var speed Test.vi"/>
 			<Item Name="shared Variable as Variant Test.vi" Type="VI" URL="../Test Code/shared Variable as Variant Test.vi"/>
 			<Item Name="Test List Tags By Type.vi" Type="VI" URL="../Test Code/Test List Tags By Type.vi"/>

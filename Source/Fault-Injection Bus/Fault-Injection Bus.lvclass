@@ -102,7 +102,7 @@
 	<Item Name="Support" Type="Folder">
 		<Item Name="Set Types" Type="Folder">
 			<Item Name="Omni-Bus Inject Boolean.vi" Type="VI" URL="../Support/Omni-Bus/Omni-Bus Inject Boolean.vi">
-				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;)!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#J!=!!?!!!3%%^N&lt;GF@1H6T,GRW9WRB=X-!!!R0&lt;7ZJ8U*V=S"P&gt;81!!!R!)1:&amp;&lt;G&amp;C&lt;'5!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!&amp;%!B$EFO;G6D&gt;'6E)&amp;:B&lt;(6F!!!-1$$`````!V2B:Q!I1(!!(A!!%B"0&lt;7ZJ8U*V=SZM&gt;G.M98.T!!!,4WVO;6^#&gt;8-A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"A!%!!=!#!!*!!I$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!)!!!!!!!!!!I!!!!)!!!!#!!!!!A!!!U!!!!-!!!!!!!!!!!!!!%!#Q!!!!!</Property>
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;)!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#J!=!!?!!!3%%^N&lt;GF@1H6T,GRW9WRB=X-!!!R0&lt;7ZJ8U*V=S"P&gt;81!!!R!)1:&amp;&lt;G&amp;C&lt;'5!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!&amp;%!B$EFO;G6D&gt;'6E)&amp;:B&lt;(6F!!!-1$$`````!V2B:Q!I1(!!(A!!%B"0&lt;7ZJ8U*V=SZM&gt;G.M98.T!!!,4WVO;6^#&gt;8-A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"A!%!!=!#!!*!!I$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!1!!!!!!!!!!I!!!!1!!!!%!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#Q!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 				<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
 				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
@@ -272,6 +272,177 @@
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 				<Property Name="NI.ClassItem.State" Type="Int">268967952</Property>
 			</Item>
+			<Item Name="Omni-Bus Inject Multi Boolean.vi" Type="VI" URL="../Support/Omni-Bus/Omni-Bus Inject Multi Boolean.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!')!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#J!=!!?!!!3%%^N&lt;GF@1H6T,GRW9WRB=X-!!!R0&lt;7ZJ8U*V=S"P&gt;81!!!R!)1:&amp;&lt;G&amp;C&lt;'5!!"2!1!!"`````Q!'"E6O97*M:1!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!51#%/37ZK:7.U:71A6G&amp;M&gt;75!!"R!1!!"`````Q!*$UFO;G6D&gt;'6E)&amp;:B&lt;(6F=Q!-1$$`````!V2B:Q!11%!!!@````]!#Q.597=!+%"Q!"Y!!")14WVO;6^#&gt;8-O&lt;(:D&lt;'&amp;T=Q!!#U^N&lt;GF@1H6T)'FO!'%!]!!-!!-!"!!%!!5!"!!%!!=!"!!)!!I!$!!.!Q!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!##!!!!!!!!!!+!!!##!!!!AA!!!!)!!!.!!!!$!!!!!!!!!!!!!!"!!Y!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">41943056</Property>
+			</Item>
+			<Item Name="Omni-Bus Inject Multi String.vi" Type="VI" URL="../Support/Omni-Bus/Omni-Bus Inject Multi String.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'-!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#J!=!!?!!!3%%^N&lt;GF@1H6T,GRW9WRB=X-!!!R0&lt;7ZJ8U*V=S"P&gt;81!!!R!)1:&amp;&lt;G&amp;C&lt;'5!!"2!1!!"`````Q!'"E6O97*M:1!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!91$$`````$EFO;G6D&gt;'6E)&amp;:B&lt;(6F!!!=1%!!!@````]!#1^*&lt;GJF9X2F:#"797RV:8-!$%!Q`````Q.597=!%%"!!!(`````!!M$6'&amp;H!#B!=!!?!!!3%%^N&lt;GF@1H6T,GRW9WRB=X-!!!N0&lt;7ZJ8U*V=S"J&lt;A"B!0!!$!!$!!1!"!!&amp;!!1!"!!(!!1!#!!+!!Q!$1-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!AA!!!!!!!!!#A!!!AA!!!))!!!!#!!!$1!!!!Q!!!!!!!!!!!!!!1!/!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">268967952</Property>
+			</Item>
+			<Item Name="Omni-Bus Inject Multi CDBL.vi" Type="VI" URL="../Support/Omni-Bus/Omni-Bus Inject Multi CDBL.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'*!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#J!=!!?!!!3%%^N&lt;GF@1H6T,GRW9WRB=X-!!!R0&lt;7ZJ8U*V=S"P&gt;81!!!R!)1:&amp;&lt;G&amp;C&lt;'5!!"2!1!!"`````Q!'"E6O97*M:1!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!61!U!$EFO;G6D&gt;'6E)&amp;:B&lt;(6F!!!=1%!!!@````]!#1^*&lt;GJF9X2F:#"797RV:8-!$%!Q`````Q.597=!%%"!!!(`````!!M$6'&amp;H!#B!=!!?!!!3%%^N&lt;GF@1H6T,GRW9WRB=X-!!!N0&lt;7ZJ8U*V=S"J&lt;A"B!0!!$!!$!!1!"!!&amp;!!1!"!!(!!1!#!!+!!Q!$1-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!AA!!!!!!!!!#A!!!AA!!!))!!!!#!!!$1!!!!Q!!!!!!!!!!!!!!1!/!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">268967952</Property>
+			</Item>
+			<Item Name="Omni-Bus Inject Multi CSGL.vi" Type="VI" URL="../Support/Omni-Bus/Omni-Bus Inject Multi CSGL.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'*!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#J!=!!?!!!3%%^N&lt;GF@1H6T,GRW9WRB=X-!!!R0&lt;7ZJ8U*V=S"P&gt;81!!!R!)1:&amp;&lt;G&amp;C&lt;'5!!"2!1!!"`````Q!'"E6O97*M:1!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!61!Q!$EFO;G6D&gt;'6E)&amp;:B&lt;(6F!!!=1%!!!@````]!#1^*&lt;GJF9X2F:#"797RV:8-!$%!Q`````Q.597=!%%"!!!(`````!!M$6'&amp;H!#B!=!!?!!!3%%^N&lt;GF@1H6T,GRW9WRB=X-!!!N0&lt;7ZJ8U*V=S"J&lt;A"B!0!!$!!$!!1!"!!&amp;!!1!"!!(!!1!#!!+!!Q!$1-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!AA!!!!!!!!!#A!!!AA!!!))!!!!#!!!$1!!!!Q!!!!!!!!!!!!!!1!/!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">268967952</Property>
+			</Item>
+			<Item Name="Omni-Bus Inject Multi CEXT.vi" Type="VI" URL="../Support/Omni-Bus/Omni-Bus Inject Multi CEXT.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'*!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#J!=!!?!!!3%%^N&lt;GF@1H6T,GRW9WRB=X-!!!R0&lt;7ZJ8U*V=S"P&gt;81!!!R!)1:&amp;&lt;G&amp;C&lt;'5!!"2!1!!"`````Q!'"E6O97*M:1!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!61!Y!$EFO;G6D&gt;'6E)&amp;:B&lt;(6F!!!=1%!!!@````]!#1^*&lt;GJF9X2F:#"797RV:8-!$%!Q`````Q.597=!%%"!!!(`````!!M$6'&amp;H!#B!=!!?!!!3%%^N&lt;GF@1H6T,GRW9WRB=X-!!!N0&lt;7ZJ8U*V=S"J&lt;A"B!0!!$!!$!!1!"!!&amp;!!1!"!!(!!1!#!!+!!Q!$1-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!AA!!!!!!!!!#A!!!AA!!!))!!!!#!!!$1!!!!Q!!!!!!!!!!!!!!1!/!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">268967952</Property>
+			</Item>
+			<Item Name="Omni-Bus Inject Multi DBL.vi" Type="VI" URL="../Support/Omni-Bus/Omni-Bus Inject Multi DBL.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'*!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#J!=!!?!!!3%%^N&lt;GF@1H6T,GRW9WRB=X-!!!R0&lt;7ZJ8U*V=S"P&gt;81!!!R!)1:&amp;&lt;G&amp;C&lt;'5!!"2!1!!"`````Q!'"E6O97*M:1!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!61!I!$EFO;G6D&gt;'6E)&amp;:B&lt;(6F!!!=1%!!!@````]!#1^*&lt;GJF9X2F:#"797RV:8-!$%!Q`````Q.597=!%%"!!!(`````!!M$6'&amp;H!#B!=!!?!!!3%%^N&lt;GF@1H6T,GRW9WRB=X-!!!N0&lt;7ZJ8U*V=S"J&lt;A"B!0!!$!!$!!1!"!!&amp;!!1!"!!(!!1!#!!+!!Q!$1-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!AA!!!!!!!!!#A!!!AA!!!))!!!!#!!!$1!!!!Q!!!!!!!!!!!!!!1!/!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">268967952</Property>
+			</Item>
+			<Item Name="Omni-Bus Inject Multi SGL.vi" Type="VI" URL="../Support/Omni-Bus/Omni-Bus Inject Multi SGL.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'*!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#J!=!!?!!!3%%^N&lt;GF@1H6T,GRW9WRB=X-!!!R0&lt;7ZJ8U*V=S"P&gt;81!!!R!)1:&amp;&lt;G&amp;C&lt;'5!!"2!1!!"`````Q!'"E6O97*M:1!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!61!E!$EFO;G6D&gt;'6E)&amp;:B&lt;(6F!!!=1%!!!@````]!#1^*&lt;GJF9X2F:#"797RV:8-!$%!Q`````Q.597=!%%"!!!(`````!!M$6'&amp;H!#B!=!!?!!!3%%^N&lt;GF@1H6T,GRW9WRB=X-!!!N0&lt;7ZJ8U*V=S"J&lt;A"B!0!!$!!$!!1!"!!&amp;!!1!"!!(!!1!#!!+!!Q!$1-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!AA!!!!!!!!!#A!!!AA!!!))!!!!#!!!$1!!!!Q!!!!!!!!!!!!!!1!/!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">268967952</Property>
+			</Item>
+			<Item Name="Omni-Bus Inject Multi EXT.vi" Type="VI" URL="../Support/Omni-Bus/Omni-Bus Inject Multi EXT.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'*!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#J!=!!?!!!3%%^N&lt;GF@1H6T,GRW9WRB=X-!!!R0&lt;7ZJ8U*V=S"P&gt;81!!!R!)1:&amp;&lt;G&amp;C&lt;'5!!"2!1!!"`````Q!'"E6O97*M:1!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!61!M!$EFO;G6D&gt;'6E)&amp;:B&lt;(6F!!!=1%!!!@````]!#1^*&lt;GJF9X2F:#"797RV:8-!$%!Q`````Q.597=!%%"!!!(`````!!M$6'&amp;H!#B!=!!?!!!3%%^N&lt;GF@1H6T,GRW9WRB=X-!!!N0&lt;7ZJ8U*V=S"J&lt;A"B!0!!$!!$!!1!"!!&amp;!!1!"!!(!!1!#!!+!!Q!$1-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!AA!!!!!!!!!#A!!!AA!!!))!!!!#!!!$1!!!!Q!!!!!!!!!!!!!!1!/!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">268967952</Property>
+			</Item>
+			<Item Name="Omni-Bus Inject Multi I8.vi" Type="VI" URL="../Support/Omni-Bus/Omni-Bus Inject Multi I8.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'*!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#J!=!!?!!!3%%^N&lt;GF@1H6T,GRW9WRB=X-!!!R0&lt;7ZJ8U*V=S"P&gt;81!!!R!)1:&amp;&lt;G&amp;C&lt;'5!!"2!1!!"`````Q!'"E6O97*M:1!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!61!%!$EFO;G6D&gt;'6E)&amp;:B&lt;(6F!!!=1%!!!@````]!#1^*&lt;GJF9X2F:#"797RV:8-!$%!Q`````Q.597=!%%"!!!(`````!!M$6'&amp;H!#B!=!!?!!!3%%^N&lt;GF@1H6T,GRW9WRB=X-!!!N0&lt;7ZJ8U*V=S"J&lt;A"B!0!!$!!$!!1!"!!&amp;!!1!"!!(!!1!#!!+!!Q!$1-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!AA!!!!!!!!!#A!!!AA!!!))!!!!#!!!$1!!!!Q!!!!!!!!!!!!!!1!/!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">268967952</Property>
+			</Item>
+			<Item Name="Omni-Bus Inject Multi I16.vi" Type="VI" URL="../Support/Omni-Bus/Omni-Bus Inject Multi I16.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'*!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#J!=!!?!!!3%%^N&lt;GF@1H6T,GRW9WRB=X-!!!R0&lt;7ZJ8U*V=S"P&gt;81!!!R!)1:&amp;&lt;G&amp;C&lt;'5!!"2!1!!"`````Q!'"E6O97*M:1!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!61!)!$EFO;G6D&gt;'6E)&amp;:B&lt;(6F!!!=1%!!!@````]!#1^*&lt;GJF9X2F:#"797RV:8-!$%!Q`````Q.597=!%%"!!!(`````!!M$6'&amp;H!#B!=!!?!!!3%%^N&lt;GF@1H6T,GRW9WRB=X-!!!N0&lt;7ZJ8U*V=S"J&lt;A"B!0!!$!!$!!1!"!!&amp;!!1!"!!(!!1!#!!+!!Q!$1-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!AA!!!!!!!!!#A!!!AA!!!))!!!!#!!!$1!!!!Q!!!!!!!!!!!!!!1!/!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">268967952</Property>
+			</Item>
+			<Item Name="Omni-Bus Inject Multi I32.vi" Type="VI" URL="../Support/Omni-Bus/Omni-Bus Inject Multi I32.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'*!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#J!=!!?!!!3%%^N&lt;GF@1H6T,GRW9WRB=X-!!!R0&lt;7ZJ8U*V=S"P&gt;81!!!R!)1:&amp;&lt;G&amp;C&lt;'5!!"2!1!!"`````Q!'"E6O97*M:1!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!61!-!$EFO;G6D&gt;'6E)&amp;:B&lt;(6F!!!=1%!!!@````]!#1^*&lt;GJF9X2F:#"797RV:8-!$%!Q`````Q.597=!%%"!!!(`````!!M$6'&amp;H!#B!=!!?!!!3%%^N&lt;GF@1H6T,GRW9WRB=X-!!!N0&lt;7ZJ8U*V=S"J&lt;A"B!0!!$!!$!!1!"!!&amp;!!1!"!!(!!1!#!!+!!Q!$1-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!AA!!!!!!!!!#A!!!AA!!!))!!!!#!!!$1!!!!Q!!!!!!!!!!!!!!1!/!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">268967952</Property>
+			</Item>
+			<Item Name="Omni-Bus Inject Multi I64.vi" Type="VI" URL="../Support/Omni-Bus/Omni-Bus Inject Multi I64.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'*!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#J!=!!?!!!3%%^N&lt;GF@1H6T,GRW9WRB=X-!!!R0&lt;7ZJ8U*V=S"P&gt;81!!!R!)1:&amp;&lt;G&amp;C&lt;'5!!"2!1!!"`````Q!'"E6O97*M:1!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!61!1!$EFO;G6D&gt;'6E)&amp;:B&lt;(6F!!!=1%!!!@````]!#1^*&lt;GJF9X2F:#"797RV:8-!$%!Q`````Q.597=!%%"!!!(`````!!M$6'&amp;H!#B!=!!?!!!3%%^N&lt;GF@1H6T,GRW9WRB=X-!!!N0&lt;7ZJ8U*V=S"J&lt;A"B!0!!$!!$!!1!"!!&amp;!!1!"!!(!!1!#!!+!!Q!$1-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!B!!!!!!!!!!#A!!!B!!!!)1!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!/!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">268967952</Property>
+			</Item>
+			<Item Name="Omni-Bus Inject Multi U8.vi" Type="VI" URL="../Support/Omni-Bus/Omni-Bus Inject Multi U8.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'*!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#J!=!!?!!!3%%^N&lt;GF@1H6T,GRW9WRB=X-!!!R0&lt;7ZJ8U*V=S"P&gt;81!!!R!)1:&amp;&lt;G&amp;C&lt;'5!!"2!1!!"`````Q!'"E6O97*M:1!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!61!5!$EFO;G6D&gt;'6E)&amp;:B&lt;(6F!!!=1%!!!@````]!#1^*&lt;GJF9X2F:#"797RV:8-!$%!Q`````Q.597=!%%"!!!(`````!!M$6'&amp;H!#B!=!!?!!!3%%^N&lt;GF@1H6T,GRW9WRB=X-!!!N0&lt;7ZJ8U*V=S"J&lt;A"B!0!!$!!$!!1!"!!&amp;!!1!"!!(!!1!#!!+!!Q!$1-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!B!!!!!!!!!!#A!!!B!!!!)1!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!/!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">268967952</Property>
+			</Item>
+			<Item Name="Omni-Bus Inject Multi U16.vi" Type="VI" URL="../Support/Omni-Bus/Omni-Bus Inject Multi U16.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'*!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#J!=!!?!!!3%%^N&lt;GF@1H6T,GRW9WRB=X-!!!R0&lt;7ZJ8U*V=S"P&gt;81!!!R!)1:&amp;&lt;G&amp;C&lt;'5!!"2!1!!"`````Q!'"E6O97*M:1!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!61!9!$EFO;G6D&gt;'6E)&amp;:B&lt;(6F!!!=1%!!!@````]!#1^*&lt;GJF9X2F:#"797RV:8-!$%!Q`````Q.597=!%%"!!!(`````!!M$6'&amp;H!#B!=!!?!!!3%%^N&lt;GF@1H6T,GRW9WRB=X-!!!N0&lt;7ZJ8U*V=S"J&lt;A"B!0!!$!!$!!1!"!!&amp;!!1!"!!(!!1!#!!+!!Q!$1-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!B!!!!!!!!!!#A!!!B!!!!)1!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!/!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">268967952</Property>
+			</Item>
+			<Item Name="Omni-Bus Inject Multi U32.vi" Type="VI" URL="../Support/Omni-Bus/Omni-Bus Inject Multi U32.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'*!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#J!=!!?!!!3%%^N&lt;GF@1H6T,GRW9WRB=X-!!!R0&lt;7ZJ8U*V=S"P&gt;81!!!R!)1:&amp;&lt;G&amp;C&lt;'5!!"2!1!!"`````Q!'"E6O97*M:1!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!61!9!$EFO;G6D&gt;'6E)&amp;:B&lt;(6F!!!=1%!!!@````]!#1^*&lt;GJF9X2F:#"797RV:8-!$%!Q`````Q.597=!%%"!!!(`````!!M$6'&amp;H!#B!=!!?!!!3%%^N&lt;GF@1H6T,GRW9WRB=X-!!!N0&lt;7ZJ8U*V=S"J&lt;A"B!0!!$!!$!!1!"!!&amp;!!1!"!!(!!1!#!!+!!Q!$1-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!B!!!!!!!!!!#A!!!B!!!!)1!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!/!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">536592</Property>
+			</Item>
+			<Item Name="Omni-Bus Inject Multi U64.vi" Type="VI" URL="../Support/Omni-Bus/Omni-Bus Inject Multi U64.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'*!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#J!=!!?!!!3%%^N&lt;GF@1H6T,GRW9WRB=X-!!!R0&lt;7ZJ8U*V=S"P&gt;81!!!R!)1:&amp;&lt;G&amp;C&lt;'5!!"2!1!!"`````Q!'"E6O97*M:1!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!61!9!$EFO;G6D&gt;'6E)&amp;:B&lt;(6F!!!=1%!!!@````]!#1^*&lt;GJF9X2F:#"797RV:8-!$%!Q`````Q.597=!%%"!!!(`````!!M$6'&amp;H!#B!=!!?!!!3%%^N&lt;GF@1H6T,GRW9WRB=X-!!!N0&lt;7ZJ8U*V=S"J&lt;A"B!0!!$!!$!!1!"!!&amp;!!1!"!!(!!1!#!!+!!Q!$1-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!B!!!!!!!!!!#A!!!B!!!!)1!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!/!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">536592</Property>
+			</Item>
+			<Item Name="Omni-Bus Inject Multi Time.vi" Type="VI" URL="../Support/Omni-Bus/Omni-Bus Inject Multi Time.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'+!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#J!=!!?!!!3%%^N&lt;GF@1H6T,GRW9WRB=X-!!!R0&lt;7ZJ8U*V=S"P&gt;81!!!R!)1:&amp;&lt;G&amp;C&lt;'5!!"2!1!!"`````Q!'"E6O97*M:1!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!71&amp;1!"AZ*&lt;GJF9X2F:#"797RV:1!!(%"!!!(`````!!E037ZK:7.U:71A6G&amp;M&gt;76T!!R!-0````]$6'&amp;H!""!1!!"`````Q!,!V2B:Q!I1(!!(A!!%B"0&lt;7ZJ8U*V=SZM&gt;G.M98.T!!!,4WVO;6^#&gt;8-A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"Q!%!!A!#A!-!!U$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!)1!!!!!!!!!!I!!!)1!!!#%!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!$A!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">268967952</Property>
+			</Item>
+			<Item Name="Omni-Bus Inject Multi Variant.vi" Type="VI" URL="../Support/Omni-Bus/Omni-Bus Inject Multi Variant.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!')!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#J!=!!?!!!3%%^N&lt;GF@1H6T,GRW9WRB=X-!!!R0&lt;7ZJ8U*V=S"P&gt;81!!!R!)1:&amp;&lt;G&amp;C&lt;'5!!"2!1!!"`````Q!'"E6O97*M:1!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!51&amp;-/37ZK:7.U:71A6G&amp;M&gt;75!!"R!1!!"`````Q!*$UFO;G6D&gt;'6E)&amp;:B&lt;(6F=Q!-1$$`````!V2B:Q!11%!!!@````]!#Q.597=!+%"Q!"Y!!")14WVO;6^#&gt;8-O&lt;(:D&lt;'&amp;T=Q!!#U^N&lt;GF@1H6T)'FO!'%!]!!-!!-!"!!%!!5!"!!%!!=!"!!)!!I!$!!.!Q!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!#%!!!!!!!!!!+!!!#%A!!!B!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!Y!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">32</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">524304</Property>
+			</Item>
+			<Item Name="Omni-Bus Inject Multi Waveform.vi" Type="VI" URL="../Support/Omni-Bus/Omni-Bus Inject Multi Waveform.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'+!!!!$Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#J!=!!?!!!3%%^N&lt;GF@1H6T,GRW9WRB=X-!!!R0&lt;7ZJ8U*V=S"P&gt;81!!!R!)1:&amp;&lt;G&amp;C&lt;'5!!"2!1!!"`````Q!'"E6O97*M:1!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!71&amp;1!!QZ*&lt;GJF9X2F:#"797RV:1!!(%"!!!(`````!!E037ZK:7.U:71A6G&amp;M&gt;76T!!R!-0````]$6'&amp;H!""!1!!"`````Q!,!V2B:Q!I1(!!(A!!%B"0&lt;7ZJ8U*V=SZM&gt;G.M98.T!!!,4WVO;6^#&gt;8-A;7Y!91$Q!!Q!!Q!%!!1!"1!%!!1!"Q!%!!A!#A!-!!U$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!)1!!!!!!!!!!I!!!)3!!!#%!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!$A!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">16777216</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">268967952</Property>
+			</Item>
 		</Item>
 		<Item Name="Close.vi" Type="VI" URL="../Close.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%&lt;!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$"!=!!?!!!&gt;'U:B&gt;7RU,5FO;G6D&gt;'FP&lt;C"#&gt;8-O&lt;(:D&lt;'&amp;T=Q!)2'&amp;U93"P&gt;81!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!,E"Q!"Y!!"U&lt;2G&amp;V&lt;(1N37ZK:7.U;7^O)%*V=SZM&gt;G.M98.T!!&gt;%982B)'FO!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!Q!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!#1!!!!!!%!#!!!!!!</Property>
@@ -328,7 +499,7 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 	</Item>
-	<Item Name="Omni-Bus Inject Value.vi" Type="VI" URL="../Omni-Bus Inject Value.vi">
+	<Item Name="Inject Value.vi" Type="VI" URL="../Inject Value.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!1!!!!!1!)!0+I9W9N!!%!!!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
