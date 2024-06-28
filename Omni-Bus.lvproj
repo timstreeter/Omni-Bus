@@ -19,9 +19,12 @@
 			<Item Name="Support" Type="Folder">
 				<Item Name="Write Read Multi Test.vi" Type="VI" URL="../Unit Tests/Support/Write Read Multi Test.vi"/>
 				<Item Name="Write Read Multi Test.vim" Type="VI" URL="../Unit Tests/Support/Write Read Multi Test.vim"/>
+				<Item Name="Fault Injection Multi Test.vim" Type="VI" URL="../Unit Tests/Support/Fault Injection Multi Test.vim"/>
 				<Item Name="Write Read Test.vim" Type="VI" URL="../Unit Tests/Support/Write Read Test.vim"/>
+				<Item Name="Fault Injection Test.vim" Type="VI" URL="../Unit Tests/Support/Fault Injection Test.vim"/>
 			</Item>
 			<Item Name="Read Write Tests.vi" Type="VI" URL="../Unit Tests/Read Write Tests.vi"/>
+			<Item Name="Fault Injection Tests.vi" Type="VI" URL="../Unit Tests/Fault Injection Tests.vi"/>
 		</Item>
 		<Item Name="Test" Type="Folder">
 			<Item Name="Boolean F-I Test.vi" Type="VI" URL="../Test Code/Boolean F-I Test.vi"/>
@@ -357,7 +360,6 @@
 				<Item Name="Random Number (Range).vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range).vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="Get Static DBL.vi" Type="VI" URL="../Source/Omni-Bus/Support/Get/Static/Get Static DBL.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
