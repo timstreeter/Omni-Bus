@@ -51,6 +51,7 @@
 			<Item Name="Example 5 - Bus-ception.vi" Type="VI" URL="../Source/Examples/Example 5 - Bus-ception.vi"/>
 			<Item Name="Example 6 - Get Abstract Class.vi" Type="VI" URL="../Source/Examples/Example 6 - Get Abstract Class.vi"/>
 			<Item Name="Example 7 - Remapping Tags.vi" Type="VI" URL="../Source/Examples/Example 7 - Remapping Tags.vi"/>
+			<Item Name="Example 8 - Fault Injection.vi" Type="VI" URL="../Source/Examples/Example 8 - Fault Injection.vi"/>
 		</Item>
 		<Item Name="Buses" Type="Folder">
 			<Item Name="Local Bus" Type="Folder">
