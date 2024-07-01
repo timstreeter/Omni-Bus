@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-05-01 22:40:12" Modified_Date="2024-06-28 22:55:33" Creator="Tim" Comments="" ID="e772ba1c1bb6d0971bb91937282b5f43">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-05-01 22:40:12" Modified_Date="2024-07-01 21:19:24" Creator="Tim" Comments="" ID="29775d58a4e2589f9ae6d00a4c61d460">
   <Library_General_Settings>
     <Package_File_Name>TSA_lib_Omni_Bus</Package_File_Name>
-    <Library_Version>2.0.0.6</Library_Version>
+    <Library_Version>2.0.1.7</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>Source</Library_Source_Folder>
     <Library_Output_Folder>.</Library_Output_Folder>
@@ -50,7 +50,13 @@ Examples are available</Description>
       <Copyright/>
       <Packager/>
       <URL>https://github.com/timstreeter/Omni-Bus</URL>
-      <Release_Notes>Added the "Fault Injection Bus.lvclass"  decorator class. When added after other "Bus Access" Classes it can their value objects with the Fault Injection Value objects that add additional Fault Insertion Functionality. 
+      <Release_Notes>V2.0.1.6
+The previous changes broke Remap bus. This is now fixed
+
+Added Example 9 that highlights the usage of the "Multi" value access objects that makes it easier to access multiple values of the same type.
+
+v2.0.0.5
+Added the "Fault Injection Bus.lvclass"  decorator class. When added after other "Bus Access" Classes it can their value objects with the Fault Injection Value objects that add additional Fault Insertion Functionality. 
 
 An Example 8 is added to demo the Fault Injection features.
 
@@ -303,7 +309,7 @@ Other changes are:
         <Path>Source\Fault-Injection Bus</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>51C895F7200DD95F52BF4895CF776D74</GUID>
+      <GUID>6DEE45F35F7D8A9F5CC838458CD83A0C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -338,7 +344,7 @@ Other changes are:
         <Path>Source\Aggregator Bus\Initialise.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AFE0E937A2914143B0EC849C1B81F5EE</GUID>
+      <GUID>E3D0A8363FEC3476A35C1BA868AE328D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -373,7 +379,7 @@ Other changes are:
         <Path>Source\Local Bus\Initialise - From List.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3F9C09592A01A3CD65FC94EDAF13A8BD</GUID>
+      <GUID>8FBC9A4285DB9B7F70C70D85254630EC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -520,7 +526,7 @@ Other changes are:
         <Path>Source\Omni-Bus\Write Numeric As.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>826A6719D4BF9882F657626301416F24</GUID>
+      <GUID>0F4437411EB3CA17A784D2995C2B0F13</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -555,7 +561,7 @@ Other changes are:
         <Path>Source\Remap Bus\Initialise - From Table.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7DFD4793F831EF1F27EB658E582F541E</GUID>
+      <GUID>5DFDD8033DF0729254C51CAC7025D0D8</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -632,7 +638,7 @@ Other changes are:
         <Path>Source\Fault-Injection Bus\Support\Value Type</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0E90851C605B61CF3DB52F8826A93BA5</GUID>
+      <GUID>E9C89767DED40EBB256882B3B7968561</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>5</Parent_Palette_Index>
@@ -919,7 +925,7 @@ Other changes are:
         <Path>Source\Fault-Injection Bus\Support\Value Type\CSGL</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8A5CE7C0484A758550B8F902D5C40171</GUID>
+      <GUID>A7DE290F2F4BF21DD255360C5DDDEEDF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -996,7 +1002,7 @@ Other changes are:
         <Path>Source\Fault-Injection Bus\Support\Value Type\Boolean\Set Injected Value.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>45674768AC730130B8E8A239A600E683</GUID>
+      <GUID>E251C43C6BB0E0E157FC614819602642</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -1073,7 +1079,7 @@ Other changes are:
         <Path>Source\Fault-Injection Bus\Support\Value Type\CDBL\Set Injected Value.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7227CBEA06FCAA30507FD063985AE70F</GUID>
+      <GUID>3D2B53E1D44F03A7734F60A38DBA8B0A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -1150,7 +1156,7 @@ Other changes are:
         <Path>Source\Fault-Injection Bus\Support\Value Type\CEXT\Set Injected Value.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>66A699D26035C5691C6E859C833ABA59</GUID>
+      <GUID>12985C1D499EDD8E729EF54E0D466164</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -1227,7 +1233,7 @@ Other changes are:
         <Path>Source\Fault-Injection Bus\Support\Value Type\DBL\Set Injected Value.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>BA363A8E23DD86F2567C97A5A6BC4684</GUID>
+      <GUID>BC367020CDEAF218CF44F9A37C36B017</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -1304,7 +1310,7 @@ Other changes are:
         <Path>Source\Fault-Injection Bus\Support\Value Type\EXT\Set Injected Value.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>65C59E456AF22A67291481900A9B2CF5</GUID>
+      <GUID>88C3806931A04ACF9BEC7863423D18A6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -1381,7 +1387,7 @@ Other changes are:
         <Path>Source\Fault-Injection Bus\Support\Value Type\I8\Set Injected Value.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>42751AF90B6306977F7597FF57176CF1</GUID>
+      <GUID>F93400ADA5950D96A1E8D71F1E30D9B4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -1458,7 +1464,7 @@ Other changes are:
         <Path>Source\Fault-Injection Bus\Support\Value Type\I16\Set Injected Value.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F5E37579FC592269E389AED892C8E3D4</GUID>
+      <GUID>FE52CCF0F1D4667340475D898A594176</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -1535,7 +1541,7 @@ Other changes are:
         <Path>Source\Fault-Injection Bus\Support\Value Type\I32\Set Injected Value.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>CE24A1DCAD01DEFDB4114AA5DBEC9DF9</GUID>
+      <GUID>5F5DA9E444224F1395382E20688A9C2B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -1612,7 +1618,7 @@ Other changes are:
         <Path>Source\Fault-Injection Bus\Support\Value Type\I64\Set Injected Value.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C598EC7D9F04CEC2BF0C8E3C9587105F</GUID>
+      <GUID>60CFFF1860F06EA99381D765CCFCDA52</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -1689,7 +1695,7 @@ Other changes are:
         <Path>Source\Fault-Injection Bus\Support\Value Type\SGL\Set Injected Value.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>24550F0D6D58FB6803E171E4E2A3D321</GUID>
+      <GUID>25EE437BC5181BA90D5D8D4D5F5E21A6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -1766,7 +1772,7 @@ Other changes are:
         <Path>Source\Fault-Injection Bus\Support\Value Type\Time\Set Injected Value.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DB2FDBC10A62591820B2E8AC69D91BCB</GUID>
+      <GUID>7F9929F12AF961112398B334F1E7C6A3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -1843,7 +1849,7 @@ Other changes are:
         <Path>Source\Fault-Injection Bus\Support\Value Type\STR\Set Enable.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F7581C5E2AE08FE9B8ACA2ED4B5D681A</GUID>
+      <GUID>C59C10190AA36E1A0CE15C2190210483</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -1920,7 +1926,7 @@ Other changes are:
         <Path>Source\Fault-Injection Bus\Support\Value Type\U8\Set Injected Value.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DEDFD4931AFD33A4BA5307814DB67BCF</GUID>
+      <GUID>0B787E1AB724A8C780A14D0664C47AAD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -1997,7 +2003,7 @@ Other changes are:
         <Path>Source\Fault-Injection Bus\Support\Value Type\U16\Set Injected Value.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9639928A459285C9927D59375CD5CD6B</GUID>
+      <GUID>7D7B1B1B4A46440BC6457E21F1D98DD9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -2074,7 +2080,7 @@ Other changes are:
         <Path>Source\Fault-Injection Bus\Support\Value Type\U32\Set Injected Value.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1492486F72969779A34668E2A5920D1B</GUID>
+      <GUID>AC1435B0721D5A45A62DD9C059CEB9B7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -2151,7 +2157,7 @@ Other changes are:
         <Path>Source\Fault-Injection Bus\Support\Value Type\U64\Set Injected Value.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AC22C91867E74B348969571EB8A7732E</GUID>
+      <GUID>A2713BEFDD525F970A0C0B6505E96DCD</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -2228,7 +2234,7 @@ Other changes are:
         <Path>Source\Fault-Injection Bus\Support\Value Type\Variant\Set Injected Value.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FE71FB24156CC7AC7A57BEAAEB389CF1</GUID>
+      <GUID>BB27B1FA6D498E5FE601457BE55CD4AF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -2305,7 +2311,7 @@ Other changes are:
         <Path>Source\Fault-Injection Bus\Support\Value Type\WFM\Set Injected Value.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3AD3A5AFC190BEED416129DBA20EAE3B</GUID>
+      <GUID>B6DECBF2B711BA5C8564A4CB91C3016D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>6</Parent_Palette_Index>
@@ -2382,7 +2388,7 @@ Other changes are:
         <Path>Source\Fault-Injection Bus\Support\Value Type\CSGL\Set Injected Value.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4CA2C4FBD6F1C5815C11E31AF99C8CAF</GUID>
+      <GUID>F2CFEF48318E56655CF53D8E3E5BB18C</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

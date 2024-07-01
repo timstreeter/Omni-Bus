@@ -1,5 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="21008000">
+	<Property Name="CCSymbols" Type="Str"></Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Property Name="varPersistentID:{7793570F-6B52-49CA-A4B6-42B03915891D}" Type="Ref">/My Computer/Test/Test Variables.lvlib/Boolean</Property>
@@ -52,6 +53,7 @@
 			<Item Name="Example 6 - Get Abstract Class.vi" Type="VI" URL="../Source/Examples/Example 6 - Get Abstract Class.vi"/>
 			<Item Name="Example 7 - Remapping Tags.vi" Type="VI" URL="../Source/Examples/Example 7 - Remapping Tags.vi"/>
 			<Item Name="Example 8 - Fault Injection.vi" Type="VI" URL="../Source/Examples/Example 8 - Fault Injection.vi"/>
+			<Item Name="Example 9 - Multi Tags.vi" Type="VI" URL="../Source/Examples/Example 9 - Multi Tags.vi"/>
 		</Item>
 		<Item Name="Buses" Type="Folder">
 			<Item Name="Local Bus" Type="Folder">
