@@ -43,6 +43,8 @@
 			<Item Name="Test List Tags By Type.vi" Type="VI" URL="../Test Code/Test List Tags By Type.vi"/>
 			<Item Name="Test Read Specific Type Tests.vi" Type="VI" URL="../Test Code/Test Read Specific Type Tests.vi"/>
 			<Item Name="Test Variables.lvlib" Type="Library" URL="../Test Code/Test Variables.lvlib"/>
+			<Item Name="Test Boolean Event Type.vi" Type="VI" URL="../Test Code/Test Boolean Event Type.vi"/>
+			<Item Name="Test Boolean Event.vi" Type="VI" URL="../Test Code/Test Boolean Event.vi"/>
 		</Item>
 		<Item Name="Examples" Type="Folder">
 			<Item Name="Example 1 - Local Bus DBL.vi" Type="VI" URL="../Source/Examples/Example 1 - Local Bus DBL.vi"/>
@@ -132,6 +134,20 @@
 			</Item>
 			<Item Name="Support" Type="Folder">
 				<Item Name="Bus_Access.lvclass" Type="LVClass" URL="../Source/Omni-Bus/Bus Access/Bus_Access.lvclass"/>
+			</Item>
+			<Item Name="Event Bus" Type="Folder">
+				<Item Name="Support" Type="Folder">
+					<Item Name="Event Types" Type="Folder">
+						<Item Name="OnChange_Boolean.lvclass" Type="LVClass" URL="../Source/Event Bus/Support/Event Type/OnChange/Bool/OnChange_Boolean.lvclass"/>
+						<Item Name="Event_Type.lvclass" Type="LVClass" URL="../Source/Event Bus/Support/Event Type/Event_Type.lvclass"/>
+						<Item Name="Event_Polled Type.lvclass" Type="LVClass" URL="../Source/Event Bus/Support/Event_Polled Type.lvclass"/>
+					</Item>
+					<Item Name="Event Source" Type="Folder">
+						<Item Name="Event_Source.lvclass" Type="LVClass" URL="../Source/Event Bus/Support/Event Source/Event_Source.lvclass"/>
+						<Item Name="Polled_EventSource.lvclass" Type="LVClass" URL="../Source/Event Bus/Support/Event Source/Polled_EventSource/Polled_EventSource.lvclass"/>
+					</Item>
+				</Item>
+				<Item Name="Event_Bus.lvclass" Type="LVClass" URL="../Source/Event Bus/Event_Bus.lvclass"/>
 			</Item>
 			<Item Name="Aggregator Bus.lvclass" Type="LVClass" URL="../Source/Aggregator Bus/Aggregator Bus.lvclass"/>
 			<Item Name="Remap Bus.lvclass" Type="LVClass" URL="../Source/Remap Bus/Remap Bus.lvclass"/>
@@ -361,8 +377,13 @@
 				<Item Name="Random Number (Range) I64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) I64.vi"/>
 				<Item Name="Random Number (Range) DBL.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) DBL.vi"/>
 				<Item Name="Random Number (Range).vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range).vi"/>
+				<Item Name="Stop Timed Structure.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/TimedLoop/scheduler/LVUserAPI/Stop Timed Structure.vi"/>
+				<Item Name="Create NI GUID.vi" Type="VI" URL="/&lt;vilib&gt;/string/Create NI GUID.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="lvalarms.dll" Type="Document" URL="lvalarms.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
