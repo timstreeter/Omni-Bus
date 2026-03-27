@@ -48,13 +48,13 @@
 			<Item Name="Test String Event Type.vi" Type="VI" URL="../Test Code/Test String Event Type.vi"/>
 			<Item Name="Test Boolean Omnibus Event.vi" Type="VI" URL="../Test Code/Test Boolean Omnibus Event.vi"/>
 			<Item Name="Test String Omnibus Event.vi" Type="VI" URL="../Test Code/Test String Omnibus Event.vi"/>
-			<Item Name="Test DBL Omnibus Event.vi" Type="VI" URL="../Test Code/Test DBL Omnibus Event.vi"/>
 			<Item Name="Write Read Test.vi" Type="VI" URL="../Unit Tests/Support/Write Read Test.vi"/>
 			<Item Name="Event Read.vi" Type="VI" URL="../Test Code/Support/Event Read.vi"/>
 			<Item Name="Test Event Handling.vi" Type="VI" URL="../Test Code/Test Event Handling.vi"/>
 			<Item Name="Notifier Performance Test.vi" Type="VI" URL="../Test Code/Notifier Performance Test.vi"/>
 		</Item>
 		<Item Name="Examples" Type="Folder">
+			<Item Name="Example 10 - Event Bus.vi" Type="VI" URL="../Source/Examples/Example 10 - Event Bus.vi"/>
 			<Item Name="Example 1 - Local Bus DBL.vi" Type="VI" URL="../Source/Examples/Example 1 - Local Bus DBL.vi"/>
 			<Item Name="Example 2 - Local Bus Multiple Types.vi" Type="VI" URL="../Source/Examples/Example 2 - Local Bus Multiple Types.vi"/>
 			<Item Name="Example 3 - Multiple Buses Multiple Types.vi" Type="VI" URL="../Source/Examples/Example 3 - Multiple Buses Multiple Types.vi"/>
@@ -146,6 +146,8 @@
 			<Item Name="Event Bus" Type="Folder">
 				<Item Name="Support" Type="Folder">
 					<Item Name="Event Types" Type="Folder">
+						<Item Name="OnChangeNotifier_Time.lvclass" Type="LVClass" URL="../Source/Event Bus/Support/Event Type/OnChange/Time/OnChangeNotifier_Time.lvclass"/>
+						<Item Name="OnChangeNotifier_Varient.lvclass" Type="LVClass" URL="../Source/Event Bus/Support/Event Type/OnChange/Varient/OnChangeNotifier_Varient.lvclass"/>
 						<Item Name="OnChangeNotifier_U8.lvclass" Type="LVClass" URL="../Source/Event Bus/Support/Event Type/OnChange/U8/OnChangeNotifier_U8.lvclass"/>
 						<Item Name="OnChangeNotifier_U16.lvclass" Type="LVClass" URL="../Source/Event Bus/Support/Event Type/OnChange/U16/OnChangeNotifier_U16.lvclass"/>
 						<Item Name="OnChangeNotifier_U32.lvclass" Type="LVClass" URL="../Source/Event Bus/Support/Event Type/OnChange/U32/OnChangeNotifier_U32.lvclass"/>
@@ -162,6 +164,7 @@
 						<Item Name="OnChangeNotifier_CSGL.lvclass" Type="LVClass" URL="../Source/Event Bus/Support/Event Type/OnChange/CSGL/OnChangeNotifier_CSGL.lvclass"/>
 						<Item Name="OnChangeNotifier_Boolean.lvclass" Type="LVClass" URL="../Source/Event Bus/Support/Event Type/OnChange/Bool/OnChangeNotifier_Boolean.lvclass"/>
 						<Item Name="OnChangeNotifier_String.lvclass" Type="LVClass" URL="../Source/Event Bus/Support/Event Type/OnChange/String/OnChangeNotifier_String.lvclass"/>
+						<Item Name="OnChangeNotifier_Waveform.lvclass" Type="LVClass" URL="../Source/Event Bus/Support/Event Type/OnChange/Waveform/OnChangeNotifier_Waveform.lvclass"/>
 						<Item Name="Event_Type.lvclass" Type="LVClass" URL="../Source/Event Bus/Support/Event Type/Event_Type.lvclass"/>
 						<Item Name="Event_Polled Type.lvclass" Type="LVClass" URL="../Source/Event Bus/Support/Event_Polled Type.lvclass"/>
 					</Item>
@@ -369,6 +372,7 @@
 				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
 				<Item Name="TRef Traverse.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef Traverse.vi"/>
 				<Item Name="Abs_Complex Extended Float.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/TSA/Abstract Data Classes/Abs_Types/Complex Extended Float/Abs_Complex Extended Float.lvclass"/>
+				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="openg_variant.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/openg_variant.lvlib"/>
